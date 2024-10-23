@@ -1,3 +1,3 @@
-def call() {
-  sh "echo 'Hey from printLine!'"
+def call(String line) {
+  sh "echo Printing line: ${line}"
 }
